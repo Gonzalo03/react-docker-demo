@@ -8,7 +8,7 @@ scripts:
 
 deploy: 
   provider: elasticbeanstalk
-  region: "us-east-2"
+  region: "us-east-1"
   app: "react-app"
   env: "Reactapp-env"
   bucket_name: "elasticbeanstalk-us-east-1-841732415283"
